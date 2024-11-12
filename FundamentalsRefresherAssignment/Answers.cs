@@ -68,10 +68,6 @@
 
         static List<string> GetCitiesWithPopulationOver(int populationThreshold)
         {
-            //Kirjoita algoritmi, joka palauttaa kaupungit, jotka ylittävät paramerina tulevan asukasmäärän
-            //Esim 600000 palauttaa vain Helsinki
-            //Palauta kaupungit siinä muodossa, joka on funktion palautusarvo
-
             Dictionary<string, int> cityPopulations = new()
             {
                 { "Helsinki", 655281 },
